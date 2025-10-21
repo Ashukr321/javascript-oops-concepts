@@ -1,0 +1,1 @@
+console.log("Advanced concept and example")
