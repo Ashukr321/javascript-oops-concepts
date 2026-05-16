@@ -5,22 +5,47 @@ This repo contains complete explanations and hands-on code examples for masterin
 
 ---
 
-## 🚀 Topics Covered
+## 🗺️ Flow Pipeline Diagram Prompt
 
-1. Objects and Object Creation  
-2. Constructor Functions  
-3. Classes and Constructors (ES6)  
-4. Encapsulation (Getters, Setters, Private Fields)  
-5. Abstraction  
-6. Inheritance (Prototype & Class-based)  
-7. Polymorphism  
-8. Prototypes and Prototype Chain  
-9. `this` Keyword  
-10. Static Methods and Properties  
-11. Mixins and Composition  
-12. Design Patterns (Factory, Singleton, etc.)  
-
+> 📄 See [`flowpipeline.md`](./flowpipeline.md) — Contains a ready-to-use **Claude AI prompt** that generates a complete visual flow pipeline diagram for all OOP concepts in this repo.  
+> Paste the prompt into [Claude AI](https://claude.ai) → get a **Mermaid.js diagram** → render at [mermaid.live](https://mermaid.live)
 
 ---
 
+## 🚀 Topics Covered
 
+| # | Folder | Concept |
+|---|--------|---------|
+| 01 | `01-objects/` | Objects, Object Literals, `Object.create()`, Constructor Fns, `new` |
+| 02 | `02-classes-constructor/` | ES6 Classes, `constructor()`, Instantiation |
+| 03 | `03-encapsulation/` | Encapsulation, Private `#fields`, Getters, Setters, Closures |
+| 04 | `04-inheritance/` | Inheritance, `extends`, `super`, Method Override |
+| 05 | `05-polymorphism/` | Polymorphism, Duck Typing, `instanceof` |
+| 06 | `06-prototypes/` | Prototype Chain, `[[Prototype]]`, `Object.prototype` |
+| 07 | `07-advanced/` | Advanced Patterns & Combinations |
+| 08 | `08_static_methods/` | Static Methods & Properties |
+| 09 | `09-this keywords/` | `this` Keyword in All Contexts, `.call/.apply/.bind` |
+| 10 | `10-design-patterns/` | Factory, Singleton, Observer, Module, Strategy Patterns |
+| 11 | `11-abstraction/` | Abstraction, Abstract Classes, `new.target`, Interface Hiding |
+| 12 | `12-mixins-composition/` | Mixins, Functional Mixins, Composition over Inheritance |
+
+---
+
+## 📚 Learning Order (Recommended)
+
+```
+Objects → Classes → Prototypes → this Keyword
+    → Encapsulation → Abstraction
+        → Inheritance → Polymorphism
+            → Static Methods → Design Patterns → Mixins & Composition
+```
+
+---
+
+## 🛠️ How to Run
+
+```bash
+node 01-objects/index.js
+node 02-classes-constructor/index.js
+# ... and so on
+```
